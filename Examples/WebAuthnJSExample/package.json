@@ -1,0 +1,31 @@
+{
+  "name": "webauthn-js-example",
+  "version": "1.0.0",
+  "description": "WebAuthn password example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moni875397/keycloak-radius-plugin.git"
+  },
+  "author": "vzakharchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moni875397/keycloak-radius-plugin/issues"
+  },
+  "homepage": "https://github.com/moni875397/keycloak-radius-plugin#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-session": "*",
+    "keycloak-connect": "*",
+    "node-radius-client": "*",
+    "node-radius-utils": "*",
+    "path": "*",
+    "hbs": "*"
+  }
+}

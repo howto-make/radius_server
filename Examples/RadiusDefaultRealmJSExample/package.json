@@ -1,0 +1,29 @@
+{
+  "name": "radius-default-example",
+  "version": "1.0.0",
+  "description": "REJECT_ condition Example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moni875397/keycloak-radius-plugin.git"
+  },
+  "author": "vzakharchenko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/moni875397/keycloak-radius-plugin/issues"
+  },
+  "homepage": "https://github.com/moni875397/keycloak-radius-plugin#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "node-radius-client": "*",
+    "node-radius-utils": "*",
+    "path": "*",
+    "hbs": "*"
+  }
+}
